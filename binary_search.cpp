@@ -58,4 +58,5 @@ Solution::search(vector<int> &nums, int target)
     return -1;
 }
 
+//补充
 最后left > right，插入位置为left；若有多个元素相同，要找指定元素的范围，二分查找找到一个后左右遍历即可；查找某数的平方根或者某数，没找到时最后right的值比目标(查找条件) 小，left的值比目标大
